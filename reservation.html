@@ -4,58 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>✈ | Reservation</title>
   </head>
   <body>
     <header>
-      <img src="img/header.png" />
+      <img src="img/header-final.png" alt="header-final" usemap="#header-menu" />
+
+      <map name="header-menu">
+        <area target="_blank" alt="homepage" title="" href="index.html" coords="185,407,268,442" shape="rect" />
+        <area target="_blank" alt="" title="" href="info.html" coords="298,409,432,440" shape="rect" />
+        <area target="_blank" alt="" title="" href="history.html" coords="462,407,551,440" shape="rect" />
+        <area target="_blank" alt="" title="" href="product.html" coords="583,406,676,442" shape="rect" />
+        <area target="_blank" alt="" title="" href="reservation.html" coords="708,405,852,443" shape="rect" />
+        <area target="_blank" alt="" title="" href="news.html" coords="883,412,952,439" shape="rect" />
+        <area target="_blank" alt="" title="" href="about.html" coords="981,408,1097,442" shape="rect" />
+        <area target="_blank" alt="" title="" href="guide.html" coords="1128,411,1203,439" shape="rect" />
+        <area target="_blank" alt="" title="" href="map.html" coords="1245,412,1346,440" shape="rect" />
+      </map>
     </header>
+      <br><br>
     <main>
       <body background="img/galaxy.jpg"></body>
-      <!-- <p> <font color="white"></p>
-      <li>
-        <ul>
-        | HOME |
-        </ul>
-        <ul>
-          | Information |
-        </ul>
-        <ul>
-          | History |
-        </ul>
-        <ul>
-          | product |
-        </ul>
-        <ul>
-          | Reservation |
-        </ul>
-        <ul>
-          | Contact us |
-        </ul>
-        <ul>
-          | News |
-        </ul>
-        <ul>
-          | About Us |
-        </ul>
-        <ul>
-          | Map site |
-        </ul>
-      </li>
-      <h1>Reservation</h1> -->
+      
       <form action="" method="get" class="fullname">
-        <div class="fullname" >
-          <label for=><font color="white">Full name </label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <div class="Email">
-          <label for="email"> <font color="white">Email Address </label>
-          <input type="email" name="email" id="email" required />
-          </div>         
-          <div class="PhoneNumber">
-          <label for="PhoneNumber"> <font color="white">Phone Number </label>
+        <section >
+          <label for=><font color="white">Full name : </label>
+          <input type="text" name="name" id="name" required /><br><br>
+        </section>
+        <section >
+          <label for="email"> <font color="white">Email Address : </label>
+          <input type="email" name="email" id="email" required /><br><br>
+          </section>         
+          <section>
+          <label for="PhoneNumber"> <font color="white">Phone Number  :</label>
           <input type="number" name="PhoneNumber" id="PhoneNumber" required />
-          </div> 
+          </section> 
       </form>
       <br>
       <br>
@@ -65,12 +48,50 @@
         <label ><input type="radio" name="radio" /> Jupiter</label>
         <label><input type="radio" name="radio" /> Mercury</label>
         <label><input type="radio" name="radio" /> Select me</label>
+        <button type="submit">Submit</button>
       </fieldset>
-      <input type="submit" value="Submit!" />
-      <button>
+     
+      <br><br>
+         <a href="index.html">
+        <button>🔙 | Back </button>
+    </a>
+  
+
+    <a href="map.html">
+          <button>🗺 | Go To SiteMap</button>
+      </a>
     </main>
-    <footer>
-      <img src="img/footer.png" />
+    <br><br>
+     <footer>
+      <map name="footer-map">
+        <area
+          target="_blank"
+          alt=""
+          title=""
+          href="https://www.instagram.com/apsignal"
+          coords="203,33,30"
+          shape="circle"
+        />
+        <area target="_blank" alt="" title="" href="https://t.me/APSignals" coords="310,30,26" shape="circle" />
+        <area
+          target="_blank"
+          alt=""
+          title=""
+          href="https://miro.com/welcomeonboard/aTRQMmZkWHg2eWRxcFVrWFdNTkdKVXl4Y1dDZlhza1BRTTNmOUQ4emRGSE9mMVlYRWc3emVJaWlFS2hJSkJtQXwzMDc0NDU3MzY2MTYzMzAxMTA1?invite_link_id=516180773216"
+          coords="417,30,29"
+          shape="circle"
+        />
+        <area
+          target="_blank"
+          alt=""
+          title=""
+          href="https://trello.com/invite/b/OUaRw1pJ/112734ff884febfdb54e20340288a251/%F0%9F%8C%8C-mars"
+          coords="522,29,30"
+          shape="circle"
+        />
+      </map>
+
+      <img usemap="#footer-map" src="img/footer-mars.png" alt="" />
     </footer>
   </body>
 </html>
